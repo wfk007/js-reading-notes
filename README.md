@@ -2,8 +2,6 @@
 
 ## 五种基本数据类型+Object
 
----
-
 - Undefined
 - Null
 - Boolean
@@ -12,8 +10,6 @@
 - **Object**
 
 ## typeof 操作符
-
----
 
 - Undefined->undefined
 - **Null->object**
@@ -25,14 +21,12 @@
 
 ## Undefined 类型
 
----
 
 - Undefined 类型只有一个值，在使用 var 声明变量，但未对其加以初始化时，这个变量值就是 undefined
 - **在对未初始化的变量执行 typeof 操作会返回undefined，对未声明的变量执行 typeof 操作同样返回undefined**
 
 ## Null 类型
 
----
 
 - Null类型是第二个只有一个值的类型，表示一个对象的空指针。
 
@@ -44,22 +38,17 @@ alert(null == undefined); //true
 
 ## Boolean 类型
 
----
-
 - 该类型只有两个值：true,false(且区分大小写)。true不一定等于1，false不一定等于0
 
 其他类型转换成Boolean：Boolean()
-| 数据类型    |转化为true           | 转化为false   |
-| -----------|:--------------------|:------------|
-| String     | 任何非空字符串         | ""         |
-| Number     | 任何非0数字(包括无限大) |  0和NaN    |
-| Object     | 任何对象              |    null    |
 
+- String：任何非空字符串->true；""->false
+- Number：任何非 0 数字（包括无限大）->true；0和NaN->false
+- Object：任何对象->true；null->false
 
 
 ## Number 类型
 
----
 
 - 任何涉及 NaN 的操作都会返回 NaN。NaN 与任何值都不相等，包括自身
 
@@ -80,7 +69,6 @@ alert(null == undefined); //true
 
 ## String 类型
 
----
 
 - ECMASCcript 中的字符串不可变
 
@@ -94,7 +82,6 @@ alert(null == undefined); //true
 
 ## Object 类型
 
----
 
 Object 的每个实例都具有下列属性和方法：
 
